@@ -1,0 +1,6 @@
+---
+- name: Install default packages
+  hosts: all
+  become: true
+  roles:
+    - nginx
