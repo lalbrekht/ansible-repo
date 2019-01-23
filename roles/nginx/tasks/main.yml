@@ -1,8 +1,0 @@
----
-# tasks file for test-role
-- name: Instsall nginx
-  apt:
-    update_cache: true
-    name: nginx
-    state: present
-  notify: Start end enable nginx
